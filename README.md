@@ -1,2 +1,2 @@
 # dotfiles
-My dotfiles (bash, brew, git, vscode settings) for your OSX
+My dotfiles (bash, git, brew, vscode settings with plugins) for OSX
