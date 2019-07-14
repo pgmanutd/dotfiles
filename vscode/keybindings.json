@@ -1,0 +1,43 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+y",
+    "command": "redo",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+h",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "shift+f2",
+    "command": "editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+f12",
+    "command": "-editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "merge-conflict.next"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "merge-conflict.previous"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "merge-conflict.accept.all-current"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "merge-conflict.accept.all-incoming"
+  }
+]
