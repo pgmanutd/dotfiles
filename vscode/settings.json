@@ -19,7 +19,6 @@
   "files.exclude": {
     "**/dest": true,
     "**/dist": true,
-    "**/build": true,
     "**/log": true,
     "**/logs": true,
     "**/bower_components": true,
@@ -30,12 +29,26 @@
     "**/.cache": true,
     "**/.out": true,
     "**/vendor": true,
-    "**/pacts": true
+    "**/pacts": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/*.meta": true,
+    "**/*.*.meta": true,
+    "**/*.unity": true,
+    "**/*.unityproj": true,
+    "**/*.mat": true,
+    "**/*.fbx": true,
+    "**/*.FBX": true,
+    "**/*.tga": true,
+    "**/*.cubemap": true,
+    "**/*.prefab": true,
+    "**/Library": true,
+    "**/ProjectSettings": true,
+    "**/Temp": true
   },
   "files.watcherExclude": {
     "**/dest/**": true,
     "**/dist/**": true,
-    "**/build/**": true,
     "**/log/**": true,
     "**/logs/**": true,
     "**/bower_components/**": true,
@@ -51,7 +64,6 @@
   "search.exclude": {
     "**/dest": true,
     "**/dist": true,
-    "**/build/**": true,
     "**/log": true,
     "**/logs": true,
     "**/bower_components": true,
@@ -71,19 +83,10 @@
   "typescript.tsdk": "./node_modules/typescript/lib",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "beautify.config": {
-    "brace_style": "collapse,preserve-inline",
-    "indent_size": 2,
-    "end_with_newline": true,
-    "keep_array_indentation": true,
-    "keep_function_indentation": true,
-    "break_chained_methods": true
-  },
-  "prettier.eslintIntegration": true,
+  "terminal.integrated.scrollback": 9000,
   "css.validate": false,
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.shell.osx": "/bin/bash",
-  "gitlens.gitExplorer.files.layout": "auto",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -96,13 +99,8 @@
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "go.autocompleteUnimportedPackages": true,
-  "go.gotoSymbol.includeImports": true,
   "gitlens.keymap": "alternate",
-  "jest.pathToConfig": "./jestConfig.json",
-  "typescript.experimental.syntaxFolding": false,
   "editor.snippetSuggestions": "top",
-  "gitlens.historyExplorer.enabled": true,
   "breadcrumbs.enabled": true,
   "workbench.settings.editor": "json",
   "search.showLineNumbers": true,
@@ -111,11 +109,7 @@
   "gitlens.views.repositories.files.layout": "auto",
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "wrapLogMessage": true,
-  "addSemicolonInTheEnd": true,
-  "logMessagePrefix": "Debug",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Oceanic Next",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -135,5 +129,14 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "local-history.path": "/Users/{userName}/.vscode/.local-history",
+  "local-history.treeLocation": "localHistory",
+  "local-history.daysLimit": 5,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5"
 }
