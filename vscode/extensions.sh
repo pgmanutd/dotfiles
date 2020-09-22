@@ -17,6 +17,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension firsttris.vscode-jest-runner
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.code-runner
+code --install-extension golang.go
 code --install-extension HookyQR.beautify
 code --install-extension jchannon.csharpextensions
 code --install-extension joelday.docthis
@@ -26,7 +27,6 @@ code --install-extension lionize.unity-snippets-modified
 code --install-extension Mikael.Angular-BeastCode
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-dotnettools.csharp
-code --install-extension ms-vscode.Go
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension mtxr.sqltools
@@ -37,6 +37,7 @@ code --install-extension pnp.polacode
 code --install-extension pucelle.vscode-css-navigation
 code --install-extension rebornix.ruby
 code --install-extension robinbentley.sass-indented
+code --install-extension rvest.vs-code-prettier-eslint
 code --install-extension shinnn.stylelint
 code --install-extension steoates.autoimport
 code --install-extension stevejpurves.cucumber
@@ -45,6 +46,7 @@ code --install-extension Tobiah.unity-tools
 code --install-extension Unity.unity-debug
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension waderyan.gitblame
+code --install-extension WallabyJs.quokka-vscode
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wingrunr21.vscode-ruby
 code --install-extension wix.vscode-import-cost

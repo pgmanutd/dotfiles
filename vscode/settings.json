@@ -85,6 +85,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.scrollback": 9000,
   "css.validate": false,
+  "scss.validate": false,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "gitlens.advanced.messages": {
@@ -112,27 +113,27 @@
   "editor.suggestSelection": "first",
   "workbench.colorTheme": "Oceanic Next",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.statusBar.visible": true,
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
+  "workbench.statusBar.visible": true,
   "local-history.path": "/Users/{userName}/.vscode/.local-history",
   "local-history.treeLocation": "localHistory",
   "local-history.daysLimit": 5,
